@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">HASGTAG MANAGER</string>
+    <string name="options">Options</string>
+    <string name="option">option</string>
+    <string name="title_activity_add_hashtags">AddHashtagsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="your_hashtag"><![CDATA[<your hashtag>]]></string>
+    <string name="add_tag">Add tag</string>
+    <string name="your_tag"><![CDATA[<Your_Tag>]]></string>
+
+    <string name="tag"><![CDATA[<tag>]]></string>
+
+    <string name="accept">Accept</string>
+    <string name="HashtagQueryOptions" />
+
+    <string name="decline">Decline</string>
+    <string name="your_group"><![CDATA[<Your Group>]]></string>
+
+    <!--Titles for views-->
+    <string name="Main_menu">Main menu</string>
+    <string name="Add_hashtags">Add hashtags</string>
+    <string name="Hashtags_entries">Hashtags entries</string>
+    <string name="Add_group">Add Group</string>
+    <string name="Group_entries">Group entries</string>
+    <string name="Backup_data">Backup data</string>
+
+    <!--Titles for dialogs-->
+    <string name="warning_title">Do you want to delete!?</string>
+    <string name="update_hashtags">Update Hashtags</string>
+    <string name="hashtags_preview">Hashtags preview</string>
+    <string name="group">Group</string>
+    <string name="update_group">update group</string>
+    <string name="asign_group">Assign group</string>
+
+    <!---Backup activity-->
+    <string name="backup_in_sd">Backup in SD</string>
+    <string name="restore_data">Restore data</string>
+
+    <!---content descriptions-->
+    <string name="delete_adv_content_description">Permanent deletion, you can\'t undo it!!</string>
+    <string name="delete_adv_subtitle">Warning!!</string>
+    <string name="in_general">In General</string>
+    <string name="in_group">In Group</string>
+    <string name="do_you_want_to_restore">Do you want to restore!?</string>
+
+
+</resources>

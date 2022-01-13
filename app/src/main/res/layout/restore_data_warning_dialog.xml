@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_launcher_background"
+    android:backgroundTint="@color/nighty_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/RestoreWarningSubtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/RestoreWarningLabel">
+
+            <ImageView
+                android:id="@+id/RestoreWarningIcon1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:foregroundGravity="top"
+                app:srcCompat="@drawable/sdbackupicon"
+                app:tint="@color/hint_blue" />
+
+            <ImageView
+                android:id="@+id/RestoreWarnigIcon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/arrowright" />
+
+            <ImageView
+                android:id="@+id/RestoreWarning2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/sdbackupicon"
+                app:tint="@color/delete_adv_logo" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/RestoreWarningLabel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:backgroundTint="@color/delete_adv_secondary_background"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/do_you_want_to_restore"
+            android:textColor="@color/delete_adv_main_title"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/RestoreWarningSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_adv_subtitle"
+            android:textColor="@color/delete_adv_subtitle"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/RestoreWarningDescription"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/RestoreWarningDescription"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="The data will be permanently replaced, it will not be possible to recover the data once changed!!"
+            android:textColor="@color/delete_adv_description"
+            android:textColorHint="@color/delete_adv_description"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#00FFFFFF"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/AcceptedRestoreWarning"
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:background="@drawable/ic_launcher_background"
+                android:backgroundTint="@color/nighty_background"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/accept"
+                android:textColor="@color/delete_adv_accept"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="18dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/DeclineRestoreWarning"
+                android:layout_width="130dp"
+                android:layout_height="55dp"
+                android:layout_weight="0"
+                android:background="@drawable/ic_launcher_background"
+                android:backgroundTint="@color/nighty_background"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/decline"
+                android:textColor="@color/delete_adv_reject"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yellow">#FFEB3B</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="pastel_orange">#FFB347</color>
+    <color name="pastel_green">#C6D57E</color>
+    <color name="pastel_beigie">#FFE1AF</color>
+    <color name="pastel_blue">#A2CDCD</color>
+    <color name="pastel_red">#D57E7E</color>
+    <color name="pastel_blue_dark">#316B83</color>
+    <color name="pastel_dark_green">#3A6351</color>
+
+    <!--Main theme colors-->
+    <color name="nighty_background">#1F1B24</color><!--Background-->
+    <color name="text_blue">#0ADAFF</color><!--Main text-->
+    <color name="hint_blue">#94EFFF</color><!--hint-->
+
+    <!--Menu activities colors-->
+    <color name="main_menu">#5CF2F2</color><!--Main menu-->
+    <color name="main_menu_text">#7DB3F1</color><!--Main menu text-->
+    <color name="hashtags_query">#B3AEF8</color><!--Hashtags query-->
+    <color name="hashtags_query_text">#E5ADF7</color><!--Hashtags query text-->
+    <color name="groups_query">#D6B2F2</color><!--Groups query-->
+    <color name="groups_query_text">#FEABAD</color><!--Groups query text-->
+
+    <!--Dialogs main colors-->
+    <color name="dialog_main_title">#153263</color><!--Dialog title text color-->
+    <color name ="secondary_background">#BAD2FF</color><!--Secondary background-->
+
+    <!--Warning Dialog-->
+    <color name="delete_adv_secondary_background">#FFE554</color>
+    <color name="delete_adv_main_title">#0C3624</color>
+    <color name="delete_adv_subtitle">#9575CD</color>
+    <color name="delete_adv_description">#F18C8C</color>
+    <color name="delete_adv_accept">#F68DDF</color>
+    <color name="delete_adv_reject">#8CA8F5</color>
+    <color name="delete_adv_logo">#E1FF00</color>
+
+
+</resources>
