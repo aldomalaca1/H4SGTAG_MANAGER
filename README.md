@@ -20,7 +20,7 @@ CRUD that saves hashtags for social media made using android studio and kotlin
 * sqlite
 
 ## Download
-Link soon
+Download de apk [here](https://drive.google.com/file/d/1LuazpNWevzEq9ag0Ky4IgNNi6LkhVbxD/view?usp=sharing)
 
 ## Setup
 [Installing apk in android](https://www.youtube.com/watch?v=vK_jgnEe_8w)
