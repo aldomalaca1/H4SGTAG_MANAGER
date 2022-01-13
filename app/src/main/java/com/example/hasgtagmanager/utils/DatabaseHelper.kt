@@ -324,10 +324,14 @@ class DatabaseHelper(context: Context): SQLiteOpenHelper(context,databaseName, n
         val generalGroupID: Int = 0
         //Get all data from table hashtags
         val hashtagsDataOutput: MutableList<HashtagsTableModel> = getAllDataInTableHashtags()
+        //Get data in table groups
+        val groupsDataOutput: MutableList<GroupsTableModel> = getDataInTableGroups(groupName)
+        //Get group id
+        val groupID:Int = groupsDataOutput[0].groupID!!
 
         for (data in hashtagsDataOutput) {
-            //Check if factionID is different to general group ID
-            if (data.faction != generalGroupID) {
+            //Check if factionID is different to general group ID and are registered in the current group
+            if (data.faction != generalGroupID && data.faction == groupID) {
                 //Get tag name from data
                 var tagName = data.tag
                 //Change faction to general group id
